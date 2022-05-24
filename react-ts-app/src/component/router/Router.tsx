@@ -5,6 +5,7 @@ import Home from "../Home";
 import Page1Layout from "../Page1Layout";
 import Page2 from "../Page2";
 import Page404 from "../Page404";
+import FetchApi from "../FetchApi";
 
 const Router: FC = () => {
     return (
@@ -16,6 +17,7 @@ const Router: FC = () => {
                 ))}
             </Route>
             <Route path='page2' element={<Page2 />} />
+            <Route path='fetch' element={<FetchApi />} />
             <Route path='*' element={<Page404 />} />
         </Routes>
     )
