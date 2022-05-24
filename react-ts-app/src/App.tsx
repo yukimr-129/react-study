@@ -12,6 +12,8 @@ function App() {
         <Link to='page1'>PAGE1</Link>
         <br />
         <Link to='page2'>PAGE2</Link>
+        <br />
+        <Link to='fetch'>FetchApi</Link>
       </div>
       <Router />
     </>
